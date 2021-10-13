@@ -1,4 +1,4 @@
-package com.farias.loginconsharedpreferencestp1_lab3.model;
+package com.farias.loginconarchivosTp2_lab3.model;
 
 
 import java.io.Serializable;

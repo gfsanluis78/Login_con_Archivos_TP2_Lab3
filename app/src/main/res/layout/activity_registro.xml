@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.registro.RegistroActivity">
+    tools:context="com.farias.loginconarchivosTp2_lab3.ui.registro.RegistroActivity">
 
     <EditText
         android:id="@+id/editText_dni"

@@ -1,4 +1,4 @@
-package com.farias.loginconsharedpreferencestp1_lab3.ui.login;
+package com.farias.loginconarchivosTp2_lab3.ui.login;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,9 +9,9 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.farias.loginconsharedpreferencestp1_lab3.model.Usuario;
-import com.farias.loginconsharedpreferencestp1_lab3.request.ApiClient;
-import com.farias.loginconsharedpreferencestp1_lab3.ui.registro.RegistroActivity;
+import com.farias.loginconarchivosTp2_lab3.model.Usuario;
+import com.farias.loginconarchivosTp2_lab3.request.ApiClient;
+import com.farias.loginconarchivosTp2_lab3.ui.registro.RegistroActivity;
 
 public class MainActivityViewModel extends AndroidViewModel {
 

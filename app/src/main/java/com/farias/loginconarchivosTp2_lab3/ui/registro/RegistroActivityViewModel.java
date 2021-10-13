@@ -1,4 +1,4 @@
-package com.farias.loginconsharedpreferencestp1_lab3.ui.registro;
+package com.farias.loginconarchivosTp2_lab3.ui.registro;
 
 import android.app.Application;
 import android.content.Context;
@@ -8,8 +8,8 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import com.farias.loginconsharedpreferencestp1_lab3.model.Usuario;
-import com.farias.loginconsharedpreferencestp1_lab3.request.ApiClient;
+import com.farias.loginconarchivosTp2_lab3.request.ApiClient;
+import com.farias.loginconarchivosTp2_lab3.model.Usuario;
 
 public class RegistroActivityViewModel extends AndroidViewModel {
 
@@ -46,7 +46,7 @@ public class RegistroActivityViewModel extends AndroidViewModel {
 
     public void mostrar(Usuario u){
         if(u != null){
-            u = apiClient.leer(context);
+            u = apiClient.leer();
             usuario.setValue(u);
         }
     }

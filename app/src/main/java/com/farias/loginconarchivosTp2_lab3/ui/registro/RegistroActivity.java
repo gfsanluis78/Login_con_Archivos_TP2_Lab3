@@ -1,4 +1,4 @@
-package com.farias.loginconsharedpreferencestp1_lab3.ui.registro;
+package com.farias.loginconarchivosTp2_lab3.ui.registro;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
@@ -11,8 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.farias.loginconsharedpreferencestp1_lab3.R;
-import com.farias.loginconsharedpreferencestp1_lab3.model.Usuario;
+import com.farias.loginconarchivosTp2_lab3.model.Usuario;
+import com.farias.loginconarchivosTp2_lab3.R;
 
 public class RegistroActivity extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.farias.loginconsharedpreferencestp1_lab3">
+    package="com.farias.loginconarchivosTp2_lab3">
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:theme="@style/Theme.LoginConSharedPreferencesTP1_Lab3">
         <activity
             android:label="Login"
-            android:name=".ui.login.MainActivity"
+            android:name="com.farias.loginconarchivosTp2_lab3.ui.login.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.registro.RegistroActivity"
+        <activity android:name="com.farias.loginconarchivosTp2_lab3.ui.registro.RegistroActivity"
             android:label="Registro"
             android:exported="true"></activity>
     </application>

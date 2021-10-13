@@ -6,5 +6,6 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "Login con SharedPreferences TP1_Lab3"
+// rootProject.name = "Login con SharedPreferences TP1_Lab3"
+rootProject.name = "Login con Archivos TP2_Lab3"
 include ':app'

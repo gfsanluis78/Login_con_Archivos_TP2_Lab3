@@ -1,4 +1,4 @@
-package com.farias.loginconsharedpreferencestp1_lab3;
+package com.farias.loginconarchivosTp2_lab3;
 
 import org.junit.Test;
 

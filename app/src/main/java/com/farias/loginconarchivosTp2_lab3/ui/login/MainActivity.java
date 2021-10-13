@@ -1,16 +1,18 @@
-package com.farias.loginconsharedpreferencestp1_lab3.ui.login;
+package com.farias.loginconarchivosTp2_lab3.ui.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.farias.loginconsharedpreferencestp1_lab3.R;
+import com.farias.loginconarchivosTp2_lab3.R;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -58,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
                 mViewModel.autenticar(email.getText().toString(),password.getText().toString());
                 email.setText("");
                 password.setText("");
+
+                // para cerrar el teclado virtual
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(password.getWindowToken(), 0);
             }
         });
 
